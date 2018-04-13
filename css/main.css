@@ -1,0 +1,84 @@
+body {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    font-size: 16px;
+}
+p{
+  color: white;
+  text-align: center;
+}
+h1 {/*welcome-screen heading */
+    font-size: 70px;
+    text-align: center;
+}
+h5{  /*login on wel screen*/
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+.welcome-screen {
+  background:url("http://backgroundcheckall.com/wp-content/uploads/2017/12/pharmacy-background-hd-8.jpg");
+  background-size: 300px 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    font-family:helvetica;
+}
+.added-width{
+   height:35px;
+   width: 220px !important;
+   margin-left: 320px;
+   margin-top: 30px;
+   background-color:#D3D3D3;
+   border:0;
+ }
+button{
+  height: 30px;
+  width: 75px;
+}
+.width-added{
+   height:50px;
+   width:80px;
+   margin-left: 400px;
+   margin-top: 20px;
+   margin-bottom: 134px;
+ }
+/* Add a black background color to the top navigation */
+ .topnav {
+    background-color: black;
+     overflow: hidden;
+ }
+ /* Style the links inside the navigation bar */
+ .topnav a {
+     float: left;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 17px;
+ }
+ /* Change the color of links on hover */
+ .topnav a:hover {
+     background-color: #ddd;
+     color: black;
+ }
+ /* Add a color to the active/current link */
+ .topnav a.active {
+     background-color: #F0F8FF;
+     color: black;
+   }

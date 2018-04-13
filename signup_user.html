@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<style>
+body{
+	background:url("signuppage.jpg");
+	background-size: 300px 50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	font-family:Verdana,Georgia;
+	font-size:14px;
+	text-align:center;
+	}
+h2{
+	font-size:35px;
+}
+.bold{
+	font-weight: bold;
+}
+
+
+input[type=text], select {
+    width: 400px;
+		background-color: #DCDCDC;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number], select {
+    width: 400px;
+		background-color: #DCDCDC;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 400px;
+		background-color: #DCDCDC;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+input[type=submit] {
+    width: 400px;
+    background-color: #A9A9A9;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #808080;
+}
+
+.frm {
+    border-radius: 5px;
+    padding: 20px;
+	  margin-left:10px;
+	  margin-right:50px;
+	  display:block;
+}
+
+
+</style>
+<body>
+<div class="frm">
+
+	<h2>Register here:</h2>
+  <form class="bold" action="insert_user.php" method="post">
+    <label  for="fname">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="First Name" required><br>
+
+    <label  for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Last Name" required><br>
+
+    <label for="cnum">Contact Number</label><br>
+    <input type="number" id="cnum" name="Contactnumber" placeholder="Contact number" required><br>
+
+     <label for="pass">Create Password</label><br>
+    <input type="password" id="pass" name="Password" placeholder="Password" required><br>
+
+	 <label class="text-margin" for="pass">Address</label><br>
+    <input type="text" id="pass" name="Address" placeholder="Email"><br>
+
+    <input type="submit" value="Confirm">
+	<br><br><br><br>
+  </form>
+</div>
+
+</body>
+</html>
